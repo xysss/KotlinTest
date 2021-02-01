@@ -22,9 +22,7 @@ fun main() {
     Thread {
         println("Thread is running")
     }.start()
-
     printParams(str = "word")
-
 }
 
 fun largerNumber(num1: Int, num2: Int) = if (num1 > num2) num1 else num2
